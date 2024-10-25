@@ -6,7 +6,7 @@ import { useCart } from "../../../hooks/useCart";
 export default function ModalCart() {
   const { cart, clearCart, totalCart } = useCart();
   return (
-    <aside className="scrollbar fixed right-10 top-60 h-2/3 w-2/5 overflow-x-hidden rounded-lg bg-customBlue px-2 py-1 text-center">
+    <aside className="scrollbar fixed right-1/2 top-1/4 w-5/6 translate-x-1/2 overflow-x-hidden rounded-lg bg-customBlue px-2 py-1 text-center md:right-10 md:top-60 md:h-2/3 md:w-2/5">
       <h2 className="text-xl">Tus Compras</h2>
       <table className="grid px-2">
         <thead>
